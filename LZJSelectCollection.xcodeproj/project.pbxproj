@@ -14,10 +14,10 @@
 		6B7D30011F2F090B003E842E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7D2FFF1F2F090B003E842E /* Main.storyboard */; };
 		6B7D30031F2F090B003E842E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7D30021F2F090B003E842E /* Assets.xcassets */; };
 		6B7D30061F2F090B003E842E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7D30041F2F090B003E842E /* LaunchScreen.storyboard */; };
-		6B7D300F1F2F0944003E842E /* LZJSelectCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D300E1F2F0944003E842E /* LZJSelectCollectionViewController.m */; };
 		6B7D30111F2F0D2B003E842E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B7D30101F2F0D2B003E842E /* Podfile */; };
-		6B7D30151F2F0FAB003E842E /* LZJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D30131F2F0FAB003E842E /* LZJCollectionViewCell.m */; };
-		6B7D30161F2F0FAB003E842E /* LZJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B7D30141F2F0FAB003E842E /* LZJCollectionViewCell.xib */; };
+		6B7D301D1F2F278E003E842E /* LZJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D30191F2F278E003E842E /* LZJCollectionViewCell.m */; };
+		6B7D301E1F2F278E003E842E /* LZJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B7D301A1F2F278E003E842E /* LZJCollectionViewCell.xib */; };
+		6B7D301F1F2F278E003E842E /* LZJSelectCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7D301C1F2F278E003E842E /* LZJSelectCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +33,12 @@
 		6B7D30021F2F090B003E842E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B7D30051F2F090B003E842E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B7D30071F2F090B003E842E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B7D300D1F2F0944003E842E /* LZJSelectCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZJSelectCollectionViewController.h; sourceTree = "<group>"; };
-		6B7D300E1F2F0944003E842E /* LZJSelectCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZJSelectCollectionViewController.m; sourceTree = "<group>"; };
 		6B7D30101F2F0D2B003E842E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		6B7D30121F2F0FAB003E842E /* LZJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZJCollectionViewCell.h; sourceTree = "<group>"; };
-		6B7D30131F2F0FAB003E842E /* LZJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZJCollectionViewCell.m; sourceTree = "<group>"; };
-		6B7D30141F2F0FAB003E842E /* LZJCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZJCollectionViewCell.xib; sourceTree = "<group>"; };
+		6B7D30181F2F278E003E842E /* LZJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZJCollectionViewCell.h; sourceTree = "<group>"; };
+		6B7D30191F2F278E003E842E /* LZJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZJCollectionViewCell.m; sourceTree = "<group>"; };
+		6B7D301A1F2F278E003E842E /* LZJCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZJCollectionViewCell.xib; sourceTree = "<group>"; };
+		6B7D301B1F2F278E003E842E /* LZJSelectCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZJSelectCollectionViewController.h; sourceTree = "<group>"; };
+		6B7D301C1F2F278E003E842E /* LZJSelectCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZJSelectCollectionViewController.m; sourceTree = "<group>"; };
 		B4491316E94159BD59D821F1 /* Pods_LZJSelectCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZJSelectCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,9 +92,8 @@
 				6B7D30021F2F090B003E842E /* Assets.xcassets */,
 				6B7D30041F2F090B003E842E /* LaunchScreen.storyboard */,
 				6B7D30071F2F090B003E842E /* Info.plist */,
+				6B7D30171F2F278E003E842E /* Class */,
 				6B7D2FF61F2F090B003E842E /* Supporting Files */,
-				6B7D300D1F2F0944003E842E /* LZJSelectCollectionViewController.h */,
-				6B7D300E1F2F0944003E842E /* LZJSelectCollectionViewController.m */,
 			);
 			path = LZJSelectCollection;
 			sourceTree = "<group>";
@@ -103,11 +102,20 @@
 			isa = PBXGroup;
 			children = (
 				6B7D2FF71F2F090B003E842E /* main.m */,
-				6B7D30121F2F0FAB003E842E /* LZJCollectionViewCell.h */,
-				6B7D30131F2F0FAB003E842E /* LZJCollectionViewCell.m */,
-				6B7D30141F2F0FAB003E842E /* LZJCollectionViewCell.xib */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B7D30171F2F278E003E842E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6B7D30181F2F278E003E842E /* LZJCollectionViewCell.h */,
+				6B7D30191F2F278E003E842E /* LZJCollectionViewCell.m */,
+				6B7D301A1F2F278E003E842E /* LZJCollectionViewCell.xib */,
+				6B7D301B1F2F278E003E842E /* LZJSelectCollectionViewController.h */,
+				6B7D301C1F2F278E003E842E /* LZJSelectCollectionViewController.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		6FAC3578D32B1BE055737754 /* Pods */ = {
@@ -183,7 +191,7 @@
 			files = (
 				6B7D30061F2F090B003E842E /* LaunchScreen.storyboard in Resources */,
 				6B7D30031F2F090B003E842E /* Assets.xcassets in Resources */,
-				6B7D30161F2F0FAB003E842E /* LZJCollectionViewCell.xib in Resources */,
+				6B7D301E1F2F278E003E842E /* LZJCollectionViewCell.xib in Resources */,
 				6B7D30111F2F0D2B003E842E /* Podfile in Resources */,
 				6B7D30011F2F090B003E842E /* Main.storyboard in Resources */,
 			);
@@ -245,8 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7D2FFE1F2F090B003E842E /* ViewController.m in Sources */,
-				6B7D300F1F2F0944003E842E /* LZJSelectCollectionViewController.m in Sources */,
-				6B7D30151F2F0FAB003E842E /* LZJCollectionViewCell.m in Sources */,
+				6B7D301F1F2F278E003E842E /* LZJSelectCollectionViewController.m in Sources */,
+				6B7D301D1F2F278E003E842E /* LZJCollectionViewCell.m in Sources */,
 				6B7D2FFB1F2F090B003E842E /* AppDelegate.m in Sources */,
 				6B7D2FF81F2F090B003E842E /* main.m in Sources */,
 			);
